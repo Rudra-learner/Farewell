@@ -150,41 +150,96 @@
         <p class="text-slate-400 text-lg">Moments we'll cherish forever</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6 px-4">
-        <div class="fade-in" style="transition-delay: 0ms">
-          <div class="polaroid bg-white p-3 pb-12 rounded-sm shadow-2xl relative -rotate-3 transform origin-center cursor-pointer">
-            <div class="overflow-hidden rounded-sm aspect-[4/5] bg-slate-200">
-              <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=600&q=80" alt="Convocation Day" class="w-full h-full object-cover filter contrast-110" loading="lazy">
+      <!-- Uses columns for Pinterest-like Masonry layout allowing variable heights -->
+      <div class="columns-2 md:columns-3 lg:columns-5 gap-4 md:gap-6 px-2 md:px-4">
+        <!-- Photo 1 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 0ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative -rotate-3 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://i.postimg.cc/t4G8Hvx1/dfdf.jpg" alt="Memory 1" class="w-full h-auto filter contrast-110" loading="lazy">
             </div>
-            <div class="absolute bottom-0 left-0 right-0 h-12 flex items-center justify-center font-serif text-slate-800 text-lg font-medium">Convocation Day</div>
-            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-16 h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
           </div>
         </div>
-        <div class="fade-in" style="transition-delay: 200ms">
-          <div class="polaroid bg-white p-3 pb-12 rounded-sm shadow-2xl relative rotate-2 transform origin-center cursor-pointer">
-            <div class="overflow-hidden rounded-sm aspect-[4/5] bg-slate-200">
-              <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=600&q=80" alt="The Epic Fest" class="w-full h-full object-cover filter contrast-110" loading="lazy">
+        <!-- Photo 2 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 100ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative rotate-2 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=600&q=80" alt="Memory 2" class="w-full h-auto filter contrast-110" loading="lazy">
             </div>
-            <div class="absolute bottom-0 left-0 right-0 h-12 flex items-center justify-center font-serif text-slate-800 text-lg font-medium">The Epic Fest</div>
-            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-16 h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
           </div>
         </div>
-        <div class="fade-in" style="transition-delay: 400ms">
-          <div class="polaroid bg-white p-3 pb-12 rounded-sm shadow-2xl relative -rotate-2 transform origin-center cursor-pointer">
-            <div class="overflow-hidden rounded-sm aspect-[4/5] bg-slate-200">
-              <img src="https://images.unsplash.com/photo-1540317580384-e5d43867caa6?auto=format&fit=crop&w=600&q=80" alt="Late Night Hacks" class="w-full h-full object-cover filter contrast-110" loading="lazy">
+        <!-- Photo 3 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 200ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative -rotate-2 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1540317580384-e5d43867caa6?auto=format&fit=crop&w=600&q=80" alt="Memory 3" class="w-full h-auto filter contrast-110" loading="lazy">
             </div>
-            <div class="absolute bottom-0 left-0 right-0 h-12 flex items-center justify-center font-serif text-slate-800 text-lg font-medium">Late Night Hacks</div>
-            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-16 h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
           </div>
         </div>
-        <div class="fade-in" style="transition-delay: 600ms">
-          <div class="polaroid bg-white p-3 pb-12 rounded-sm shadow-2xl relative rotate-3 transform origin-center cursor-pointer">
-            <div class="overflow-hidden rounded-sm aspect-[4/5] bg-slate-200">
-              <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80" alt="Canteen Diaries" class="w-full h-full object-cover filter contrast-110" loading="lazy">
+        <!-- Photo 4 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 300ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative rotate-3 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80" alt="Memory 4" class="w-full h-auto filter contrast-110" loading="lazy">
             </div>
-            <div class="absolute bottom-0 left-0 right-0 h-12 flex items-center justify-center font-serif text-slate-800 text-lg font-medium">Canteen Diaries</div>
-            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-16 h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+          </div>
+        </div>
+        <!-- Photo 5 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 400ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative -rotate-1 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=600&q=80" alt="Memory 5" class="w-full h-auto filter contrast-110" loading="lazy">
+            </div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+          </div>
+        </div>
+        <!-- Photo 6 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 500ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative rotate-2 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1525926476834-f2a893ed56fb?auto=format&fit=crop&w=600&q=80" alt="Memory 6" class="w-full h-auto filter contrast-110" loading="lazy">
+            </div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+          </div>
+        </div>
+        <!-- Photo 7 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 600ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative -rotate-3 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?auto=format&fit=crop&w=600&q=80" alt="Memory 7" class="w-full h-auto filter contrast-110" loading="lazy">
+            </div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+          </div>
+        </div>
+        <!-- Photo 8 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 700ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative rotate-1 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Memory 8" class="w-full h-auto filter contrast-110" loading="lazy">
+            </div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+          </div>
+        </div>
+        <!-- Photo 9 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 800ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative -rotate-2 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1506869640319-fea1a278e69f?auto=format&fit=crop&w=600&q=80" alt="Memory 9" class="w-full h-auto filter contrast-110" loading="lazy">
+            </div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
+          </div>
+        </div>
+        <!-- Photo 10 -->
+        <div class="fade-in break-inside-avoid mb-6" style="transition-delay: 900ms">
+          <div class="polaroid bg-white p-2 pb-8 md:p-3 md:pb-12 rounded-sm shadow-2xl relative rotate-3 transform origin-center cursor-pointer gallery-item">
+            <div class="overflow-hidden rounded-sm bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80" alt="Memory 10" class="w-full h-auto filter contrast-110" loading="lazy">
+            </div>
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/40 backdrop-blur-sm -rotate-2 border border-white/20 shadow-sm"></div>
           </div>
         </div>
       </div>
@@ -364,7 +419,7 @@ Our seniors have always been a great source of inspiration, guidance, and suppor
         <i data-lucide="ghost" class="text-pink-400 w-10 h-10"></i>
         Match the Cuties
       </h2>
-      <p class="text-slate-400 mb-8 text-lg">A cute memory game! Flip the cards and match the Juniors.</p>
+      <p class="text-slate-400 mb-8 text-lg">A cute memory game! Flip the cards and match the buddies.</p>
       
       <div id="memory-message" class="text-lg font-medium h-8 mb-4 text-pink-300 transition-all">Moves: 0</div>
       
@@ -401,6 +456,14 @@ Our seniors have always been a great source of inspiration, guidance, and suppor
       </button>
     </div>
   </section>
+
+  <!-- --- LIGHTBOX (IMAGE POPUP) --- -->
+  <div id="lightbox" class="fixed inset-0 z-50 flex items-center justify-center bg-black/95 opacity-0 pointer-events-none transition-opacity duration-300 backdrop-blur-md">
+    <button id="lightbox-close" class="absolute top-4 right-4 md:top-8 md:right-8 text-white hover:text-pink-400 transition-colors z-50 p-2">
+      <i data-lucide="x" class="w-10 h-10"></i>
+    </button>
+    <img id="lightbox-img" src="" alt="Popup" class="max-w-[95vw] max-h-[90vh] object-contain rounded-lg shadow-2xl scale-95 transition-transform duration-300">
+  </div>
 
   <!-- --- FOOTER --- -->
   <footer class="py-12 border-t border-white/10 relative z-10 text-center">
@@ -775,6 +838,36 @@ Our seniors have always been a great source of inspiration, guidance, and suppor
       }
     }
     startBugBtn.addEventListener('click', startBugGame);
+
+    // ----------------------------------------------------
+    // GALLERY LIGHTBOX LOGIC
+    // ----------------------------------------------------
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const imgSrc = item.querySelector('img').src;
+        lightboxImg.src = imgSrc;
+        lightbox.classList.remove('opacity-0', 'pointer-events-none');
+        lightboxImg.classList.remove('scale-95');
+        lightboxImg.classList.add('scale-100');
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.add('opacity-0', 'pointer-events-none');
+      lightboxImg.classList.remove('scale-100');
+      lightboxImg.classList.add('scale-95');
+      // small delay to let animation finish before clearing source
+      setTimeout(() => lightboxImg.src = '', 300);
+    }
+
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
 
   </script>
 </body>
